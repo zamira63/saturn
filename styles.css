@@ -1,0 +1,67 @@
+*{
+	margin: 0; padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+body{
+	width: 1350px;
+	background-color: #ffffff;
+}
+.container{
+	width: 660px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main-header{
+	padding: 25px 0 30px 0;
+}
+.logo{
+	display: inline-block;
+	font-family: "Open sans";
+	font-weight: bolder;
+	font-size: 27px;
+	letter-spacing: -0.1em;
+}
+.main-menu{
+	display: inline-block;
+	float: right;
+	vertical-align: middle;
+}
+.main-menu li{
+	display: inline-block;
+	list-style: none;
+	line-height: 38px;
+}
+.main-menu a{
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 15px;
+	color: #a4a4a4;
+}
+.header-background{
+	padding-top: 110px;
+	width: 100%; height: 270px;
+	background: url(images/Saturn-PSD-Template_02.png) no-repeat ;
+}
+.avatar{
+	display: inline-block;
+	width: 45px; height: 45px;
+	background: url(images/Saturn-PSD-Template_03.png);
+	border-radius: 50%;
+	border: 1px solid #e68a6e;
+}
+.greeting{
+	display: inline-block;
+	padding: 15px 0 15px 30px;
+	width: 590px; 
+	font-family: 'Open sans';
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 13px;
+	background-color: #ffffff;
+	color: #e85f37;
+	border-bottom: 5px solid #ffcfbc;
+	border-radius: 10px;
+}
