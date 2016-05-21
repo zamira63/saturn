@@ -4,7 +4,9 @@
 a{
 	text-decoration: none;
 }
-
+li{
+	list-style: none;
+}
 body{
 	width: 1350px;
 	background-color: #ffffff;
@@ -13,6 +15,8 @@ body{
 	width: 660px;
 	margin-left: auto;
 	margin-right: auto;
+	border-left: 1px solid #e68a6e;
+	border-right: 1px solid #e68a6e;
 }
 .main-header{
 	padding: 25px 0 30px 0;
@@ -31,37 +35,168 @@ body{
 }
 .main-menu li{
 	display: inline-block;
-	list-style: none;
 	line-height: 38px;
+	margin-left: 60px;
 }
+
 .main-menu a{
 	font-family: 'Lato';
 	font-weight: bold;
 	font-size: 15px;
 	color: #a4a4a4;
 }
+.main-menu .active{
+	color: #ff6c40;
+}
 .header-background{
 	padding-top: 110px;
 	width: 100%; height: 270px;
-	background: url(images/Saturn-PSD-Template_02.png) no-repeat ;
+	background: url(images/Saturn-PSD-Template_02.png) no-repeat;
+	vertical-align: middle;
+	margin-right: 0;
 }
 .avatar{
 	display: inline-block;
 	width: 45px; height: 45px;
+	margin-right: 20px;
 	background: url(images/Saturn-PSD-Template_03.png);
 	border-radius: 50%;
 	border: 1px solid #e68a6e;
 }
 .greeting{
+	vertical-align: 50%;
 	display: inline-block;
-	padding: 15px 0 15px 30px;
-	width: 590px; 
+	padding: 5px 0 5px 30px;
+	width: 550px; 
+	letter-spacing: 0.1em;
+	line-height: 45px;
 	font-family: 'Open sans';
-	font-weight: bold;
+	font-weight: 500;
 	text-transform: uppercase;
 	font-size: 13px;
 	background-color: #ffffff;
 	color: #e85f37;
 	border-bottom: 5px solid #ffcfbc;
 	border-radius: 10px;
+}
+.triangle{
+	z-index: -10px;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: 70%;
+	width: 20px; height: 20px;
+	background-color: #ffffff;
+	transform: rotate(45deg);
+	margin-right: -20px;
+}
+.wave{
+	width: 65px; height: 10px;
+	background: url(images/wave.png);
+	margin-top: 20px; margin-bottom: 20px;
+	clear: both;
+}
+.wave:first-child{
+	margin-top: -20px;
+}
+article{
+	margin-bottom: 65px;
+}
+article h1{
+	font-family: "Lato";
+	font-weight: bold;
+	font-size: 22px;
+}
+article p{
+	font-family: "Open sans";
+	font-size: 15px;
+}
+.btn-read-more{
+	display: block;
+	font-family: "Open sans";
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	padding: 6px 14px;
+	width: 100px;
+	color: #e85f37;
+	border: 1px solid #e85f37;
+	border-radius: 5px;
+	margin-top: 25px;
+}
+.post-footer, .post-footer a{
+	color: #000;
+	font-family: "Open sans";
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.post-footer span{
+	font-weight: bold;
+}
+article:nth-of-type(2) p{
+	float: left;
+	width: 370px;
+}
+article:nth-of-type(2) img{
+	float: right;
+}
+.btn-prev{
+	float: left;
+	background-color: #000;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 15px;
+	margin-bottom: 65px;
+}
+.btn-prev a{
+	font-family: 'Open sans';
+	font-weight: 600;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: white;
+}
+.btn-prev .btn-prev-img{
+	display: inline-block;
+	width: 15px; height: 15px;
+	background: url(images/sprite.png) no-repeat -182px -5px;
+	margin-right: 5px;
+}
+.page-footer{
+	text-align: center;
+	margin-top: 125px;
+}
+.text-footer{
+	clear: both;
+	font-family: 'Lato';
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin-bottom: 45px;
+}
+.social-icons{
+	float: right;
+}
+.social-icons li{
+
+	display: inline-block;
+}
+.social{
+	display: block;
+	width: 20px; height: 20px;
+	background-image: url(images/sprite.png);
+	background-repeat: no-repeat;
+	margin-left: 30px;
+}
+.social-1{
+	background-position:  -10px -5px;
+}
+.social-tw{
+	background-position:  -57px -5px;
+}
+.social-3{
+	background-position:  -102px -5px;
+}
+.social-beh{
+	background-position:  -150px -5px;
 }
